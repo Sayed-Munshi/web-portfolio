@@ -1,9 +1,16 @@
 body{
     font-family: 'Roboto Slab', serif;
+    margin: 0;
 }
 
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: green;
 }
 .namecolor{
     color: orange;
@@ -18,4 +25,33 @@ h1{
 
 .half-width img{
     width: 100%;
+}
+.topback-img{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.topbutton{
+    text-decoration: none;
+    background-image: linear-gradient(red, tomato, lightSalmon);
+    
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: blue;
+    font-weight: bold;
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.backg-shado{
+    box-shadow: 10ex 10px 40px gray;
+    border-radius: 5px;
+    
 }
